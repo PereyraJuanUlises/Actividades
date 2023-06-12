@@ -27,6 +27,6 @@ public class ArregloIngresos {
             System.out.println("posicion " +(contador+1)+ " es el numero : "+numeros[contador]);
             contador++;
         }
-        System.out.println("el numero mayor es: "+numMayor +"\nEl numero menor es: "+numMenor+"\nel promedio es de: "+ (sumador/numeros.length));
+        System.out.println("el numero mayor es: "+numMayor +"\nEl numero menor es: "+numMenor+"\nel promedio es de: "+ ((float)sumador/numeros.length));
     }
 }
